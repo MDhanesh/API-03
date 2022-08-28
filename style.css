@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(to left, #31852d, #2d4085);
+  font-family: monospace;
+}
+.card {
+  outline: none;
+  border: none;
+  box-shadow: 20px 20px 20px#2d4085;
+}
+.btn {
+  margin-left: 45%;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    margin-left: 25%;
+  }
+}
